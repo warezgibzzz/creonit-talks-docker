@@ -1,10 +1,5 @@
-
 # Устройство Docker
 
-From the terminal, pop in:
+Павел Поронько 
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+![](https://avatars2.githubusercontent.com/u/2114164?s=80&v=4)
