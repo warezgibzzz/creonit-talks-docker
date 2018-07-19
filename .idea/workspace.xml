@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b10f2ed4-2e72-487a-8995-0bd1e97606bc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/source/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/source/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/creonit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/creonit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/slides/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/slides/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +19,8 @@
       <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/source/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -61,9 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="creonit.svg" pinned="false" current-in-tab="false">
@@ -71,11 +72,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="_index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+            <state relative-caret-position="254">
+              <caret line="98" column="85" selection-start-line="98" selection-start-column="85" selection-end-line="98" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -99,9 +100,10 @@
       <list>
         <option value="$PROJECT_DIR$/slides/index.md" />
         <option value="$PROJECT_DIR$/resources/creonit.svg" />
-        <option value="$PROJECT_DIR$/css/source/theme.scss" />
         <option value="$PROJECT_DIR$/slides/list.json" />
         <option value="$PROJECT_DIR$/templates/_index.html" />
+        <option value="$PROJECT_DIR$/css/source/theme.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -157,6 +159,8 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/bower_components/reveal.js/package.json" />
       <path value="$PROJECT_DIR$/bower_components/reveal.js/plugin/multiplex/package.json" />
+      <path value="$PROJECT_DIR$/dist/bower_components/reveal.js/package.json" />
+      <path value="$PROJECT_DIR$/dist/bower_components/reveal.js/plugin/multiplex/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
@@ -267,27 +271,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532018117220</updated>
-      <workItem from="1532018119941" duration="3883000" />
+      <workItem from="1532018119941" duration="5009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3883000" />
+    <option name="totallyTimeSpent" value="5009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.33069977" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.3295711" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" sideWeight="0.5005624" side_tool="true" weight="0.2497332" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33069977" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49893278" visible="true" weight="0.33069977" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915683" visible="true" weight="0.2497332" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info id="Grunt " sideWeight="0.50084317" side_tool="true" weight="0.2497332" />
+      <window_info id="Grunt " sideWeight="0.50084317" side_tool="true" visible="true" weight="0.2497332" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,9 +318,6 @@
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/esprima/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -336,13 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/source/theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slides/list.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -357,10 +351,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/source/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        <state relative-caret-position="254">
+          <caret line="98" column="85" selection-start-line="98" selection-start-column="85" selection-end-line="98" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
