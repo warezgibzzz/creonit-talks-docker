@@ -5,5 +5,8 @@
     "typical-solutions.html",
     "docker-intro.html",
     "docker-arch.html",
-    "docker-fs.html"
+    "docker-fs.html",
+    "docker-tools.html",
+    "questions.html",
+    "thanks.html"
 ]

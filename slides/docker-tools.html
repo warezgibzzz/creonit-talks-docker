@@ -1,0 +1,41 @@
+<section>
+    <h2>Docker - инструменты</h2>
+    <ul>
+        <li>Docker Compose</li>
+        <li>Docker Machine</li>
+    </ul>
+</section>
+<section>
+    <h2>Docker Compose</h2>
+    <pre class="fragment"><code>
+version: "3"
+services:
+  web: # Сервисов могут быть десятки
+    image: username/repo:tag
+    deploy:
+      replicas: 5 # Сколько штук запускаем
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "4000:80"
+    networks:
+      - webnet
+networks:
+  webnet:
+    </code></pre>
+</section>
+<section>
+    <h2>Docker Machine</h2>
+    <div class="fragment">
+        <p>Единая консоль на всех операционных системах</p>
+        <img data-src="https://docs.docker.com/machine/img/machine-mac-win.png" alt="">
+    </div>
+    <div class="fragment">
+        <p>Разворачивание контейнеров в облаке</p>
+        <img data-src="https://docs.docker.com/machine/img/provision-use-case.png" alt="">
+    </div>
+</section>
