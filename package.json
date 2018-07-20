@@ -27,9 +27,10 @@
         "test": "grunt test",
         "build": "bower install && grunt dist",
         "start": "static -a 0.0.0.0 -p 80 dist/",
-        "now": "git checkout operator && now rm warezgibzzz-creonit-docker-talks --yes && now --public"
+        "now": "git checkout operator && now rm warezgibzzz-creonit-docker-talks --yes && now --public && now alias"
     },
     "now": {
-        "name": "warezgibzzz-creonit-docker-talks"
+        "name": "warezgibzzz-creonit-docker-talks",
+        "alias": "warezgibzzz-creonit-docker-talks.now.sh"
     }
 }
