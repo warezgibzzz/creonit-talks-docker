@@ -117,8 +117,8 @@
 
         multiplex: {
             // Example values. To generate your own, see the socket.io server instructions.
-            secret: null, // null so the clients do not have control of the master presentation
-            id: '317d899ec3fee64b', // id, obtained from socket.io server
+            secret: '15320602628705985264', // null so the clients do not have control of the master presentation
+            id: 'a193f3610f44bc96', // id, obtained from socket.io server
             url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
         },
 
@@ -154,8 +154,8 @@
                     return !!document.querySelector('[data-html]');
                 }
             },
-            {src: '//cdn.socket.io/socket.io-1.3.5.js', async: true},
-            {src: 'bower_components/reveal.js/plugin/multiplex/client.js', async: true}
+            { src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
+            { src: 'plugin/multiplex/master.js', async: true }
         ]
     });
 
