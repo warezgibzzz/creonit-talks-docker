@@ -25,6 +25,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   -webkit-background-size: contain;
   background-size: contain; }
 
+@media all and (max-width: 768px) {
+  .logo {
+    width: 50px;
+    height: 50px; } }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
