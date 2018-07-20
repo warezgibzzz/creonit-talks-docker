@@ -26,6 +26,6 @@
     "scripts": {
         "test": "grunt test",
         "build": "bower install && grunt dist",
-        "start": "static -p 80 dist/"
+        "start": "static -a 0.0.0.0 -p 80 dist/"
     }
 }
