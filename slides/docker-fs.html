@@ -1,0 +1,25 @@
+<h2>Сравнение методов хранения данных</h2>
+
+<section>
+    <h3>Гипервизоры</h3>
+    <ul>
+        <li class="fragment">Выделенное место недоступно</li>
+        <li class="fragment">Не так уж просто выдернуть данные из виртуалки</li>
+        <li class="fragment">Есть пенальти из-за полного образа системы</li>
+    </ul>
+</section>
+<section>
+    <h3>Docker</h3>
+    <ul>
+        <li class="fragment">Образы наслаиваются друг на друга</li>
+        <li class="fragment">Реальный размер контейнера ничтожно мал</li>
+        <li class="fragment">Best practice: хранение данных на хост машине, доступ к данным при помощи томов</li>
+        <li class="fragment">Том - может быть и файлом и директорией</li>
+    </ul>
+</section>
+<section>
+    <img src="/resources/container-layers.jpg" alt="">
+</section>
+<section>
+    <img src="/resources/sharing-layers.jpg" alt="">
+</section>

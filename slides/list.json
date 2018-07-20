@@ -1,4 +1,9 @@
 [
     "index.md",
-    "intro.html"
+    "intro.html",
+    "typical-problems.html",
+    "typical-solutions.html",
+    "docker-intro.html",
+    "docker-arch.html",
+    "docker-fs.html"
 ]
